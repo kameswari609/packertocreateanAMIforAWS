@@ -22,6 +22,11 @@ source "amazon-ebs" "amazon-linux" {
   ami_regions     = [
                       "ap-southeast-2"
                     ]
+  tags = {
+    "Name"        = "packer-ami"
+    "Environment" = "Production"
+    "Version"     = "1.0.1"
+  }
 }
 
 # what to install, configure and file to copy/execute

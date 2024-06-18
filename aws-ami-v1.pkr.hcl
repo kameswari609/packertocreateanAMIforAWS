@@ -18,9 +18,9 @@ source "amazon-ebs" "amazon-linux" {
   instance_type   = "t2.micro"
   source_ami      = "ami-0e1d06225679bc1c5"
   ssh_username    = "ec2-user"
-  ami_users       = ["471112561550"]
+  #ami_users       = [""]
   ami_regions     = [
-                      "ap-southeast-2"
+                      "ap-south-1"
                     ]
   tags = {
     "Name"        = "packer-ami"

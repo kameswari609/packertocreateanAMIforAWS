@@ -2,5 +2,5 @@
 
 <details>
   <summary>Architecture</summary>
-  <img src="./images/one.png" width="500">
+  <img src="./Images/one.png" width="500">
 </details>

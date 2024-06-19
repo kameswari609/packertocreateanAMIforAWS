@@ -10,9 +10,9 @@
   <br>
   <details class="nested">
   <summary>Create GitHub repository</summary>
-  Create a GitHub repo for Part One as it will be helpful for developers to interact easily and have an anchor for the Jenkins pipeline.
+       We will create a GitHub repository for Part One. This repository will serve as a central hub for developers to easily interact with the               project and manage their contributions. It will also provide a solid anchor for our Jenkins pipeline, ensuring smooth integration and                 continuous deployment processes. By utilizing GitHub, we promote collaboration, version control, and transparency within the team,                    enhancing overall productivity and project management.
   </details>
-
+   
   <details class="nested">
   <summary>Launch an ec2</summary>
     We will create an EC2 instance on AWS and set up the project there. This way, the project setup won’t interfere with our local machines, and our      local setups won’t affect the project. By isolating the environment, we ensure a clean and consistent setup for everyone involved, making it easier to manage dependencies and configurations. Additionally, this approach allows for better scalability and flexibility as we can easily         replicate the environment or scale resources as needed.

@@ -49,7 +49,10 @@ sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(l
 sudo apt-get update && sudo apt-get install packer
 #Verifying the Installation
 packer
-</code></pre>
+</code></pre><br>
+5. Install Git<br>
+6. Install Aws cli and configure<br>
+** NOTE: ** This step is not mandatory we will be passing the credentials from jenkins saved credentials.
 </details>
 
 

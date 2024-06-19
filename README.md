@@ -27,7 +27,7 @@ deployment process faster, more reliable, and consistent..<br>
 <br>  
 2. Install the latest version of Java: Jenkins will also need Java to run.<br>
 <br>  
-3. Installation steps:
+3. Installation steps:<br>
 <pre><code>  
 sudo apt update
 sudo apt install openjdk-11-jdk
@@ -38,7 +38,20 @@ sudo apt update
 sudo apt install jenkins
 sudo systemctl status jenkins
 sudo systemctl start jenkins
-</code> </pre></details>
+</code> </pre><br>
+4. Install Packer<br>
+<pre><code>
+#Add the HashiCorp GPG key.
+curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+#Add the official HashiCorp Linux repository.
+sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+#Update and install.
+sudo apt-get update && sudo apt-get install packer
+#Verifying the Installation
+packer
+</code></pre>
+</details>
+
 
 <details class="nested">
 <summary>Packer configuration</summary><br>

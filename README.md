@@ -15,15 +15,27 @@
 
   <details class="nested">
   <summary>Launch an ec2</summary>
-    We will be creating an ec2 instance in AWS and following everything inside it so that the project setup does not interfere with any of our local machine setups and vice versa.
+    We will create an EC2 instance on AWS and set up the project there. This way, the project setup won’t interfere with our local machines, and our      local setups won’t affect the project. By isolating the environment, we ensure a clean and consistent setup for everyone involved, making it easier to manage dependencies and configurations. Additionally, this approach allows for better scalability and flexibility as we can easily         replicate the environment or scale resources as needed.
   </details>
 
   <details class="nested">
   <summary>Installations</summary>
-  1. Install Jenkins on this EC2: Because we are using Jenkins as an automation tool. It will pick the code from VCS and with help of pipelines, it     will build the AMI on AWS.
-  2. Install the latest version of Java: Jenkins will also need Java to run.
+  1. Install Jenkins on this EC2: Using Jenkins as our automation tool, we connect with our Version Control System (VCS) to streamline the code 
+  deployment process. Jenkins uses pipelines to automate the steps needed to build an Amazon Machine Image (AMI) on AWS. This setup makes our 
+  deployment process faster, more reliable, and consistent..<br>
+  2. Install the latest version of Java: Jenkins will also need Java to run.<br>
   3. Installation steps:
-  </details>
+  <pre><code>  
+    sudo apt update
+sudo apt install openjdk-11-jdk
+java --version
+wget -p -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
+sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+sudo apt update
+sudo apt install jenkins
+sudo systemctl status jenkins
+sudo systemctl start jenkins
+ </code> </pre></details>
 
   <details class="nested">
   <summary>Packer configuration</summary>

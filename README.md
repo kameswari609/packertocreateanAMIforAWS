@@ -7,33 +7,34 @@
 
 <details>
   <summary>Steps followed to create the project</summary>
-    <details class="nested">
+  
+  <details class="nested">
   <summary>Create Gitlab repository</summary>
-</details>
+  </details>
 
-<details class="nested">
+  <details class="nested">
   <summary>Launch an ec2</summary>
-</details>
+  </details>
 
-<details class="nested">
+  <details class="nested">
   <summary>Installations</summary>
-</details>
+  </details>
 
-<details class="nested">
+  <details class="nested">
   <summary>Packer configuration</summary>
-</details>
+  </details>
 
-<details class="nested">
+  <details class="nested">
   <summary>Provisioner</summary>
-</details>
+  </details>
 
-<details class="nested">
+  <details class="nested">
   <summary>Launch Jenkins and Create a Pipeline with following stages</summary>
-</details>
+  </details>
 
-<details class="nested">
+  <details class="nested">
   <summary>Check for the ami on AWS Console</summary>
-</details>
-
-</details>
+  </details>
+  
+  </details>
 

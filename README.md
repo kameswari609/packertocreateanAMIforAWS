@@ -7,7 +7,7 @@
 
 <details>
   <summary>Steps followed to create the project</summary>
-  
+  <br>
   <details class="nested">
   <summary>Create Gitlab repository</summary>
   </details>

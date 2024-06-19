@@ -23,9 +23,9 @@ We will create an EC2 instance on AWS and set up the project there. This way, th
 <summary>Installations</summary><br>
 1. Install Jenkins on this EC2: Using Jenkins as our automation tool, we connect with our Version Control System (VCS) to streamline the code 
 deployment process. Jenkins uses pipelines to automate the steps needed to build an Amazon Machine Image (AMI) on AWS. This setup makes our 
-deployment process faster, more reliable, and consistent..<be>
+deployment process faster, more reliable, and consistent..<br>
 <br>  
-2. Install the latest version of Java: Jenkins will also need Java to run.<be>
+2. Install the latest version of Java: Jenkins will also need Java to run.<br>
 <br>  
 3. Installation steps:
 <pre><code>  

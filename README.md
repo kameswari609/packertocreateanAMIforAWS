@@ -6,6 +6,8 @@
 </details>
 
 <details>
+  <summary>Steps followed to create the project</summary>
+    <details>
   <summary>Create Gitlab repository</summary>
 </details>
 
@@ -32,3 +34,6 @@
 <details>
   <summary>Check for the ami on AWS Console</summary>
 </details>
+
+</details>
+

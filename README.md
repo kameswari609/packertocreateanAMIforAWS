@@ -9,7 +9,7 @@
   <summary>Steps followed to create the project</summary>
   <br>
   <details class="nested">
-  <summary>Create Gitlab repository</summary>
+  <summary>Create GitHub repository</summary>
   Create a GitHub repo for Part One as it will be helpful for developers to interact easily and have an anchor for the Jenkins pipeline.
   </details>
 

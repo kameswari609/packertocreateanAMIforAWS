@@ -70,16 +70,21 @@ aws configure
 
 <details class="nested">
 <summary>Packer configuration</summary><br>
-
+ <p>Path to the Provisioner file: <a href = "./aws-ami-v1.pkr.hcl"> aws-ami-v1.pkr.hcl</a></p>
 </details>
 
   <details class="nested">
-  <summary>Provisioner</summary><be>
-  <p>Path to the Provisioner file <a href = "./provisioner.sh"> Provisioner.sh</a></p>
+  <summary>Provisioner</summary><br>
+  <p>Path to the Provisioner file: <a href = "./provisioner.sh"> Provisioner.sh</a></p>
   </details>
 
   <details class="nested">
   <summary>Launch Jenkins and Create a Pipeline with the following stages</summary><br>
+  <p>Path to the Provisioner file: <a href = "./Jenkinsfile"> Jenkinsfile</a></p>
+  Steps followed:<br>
+    1. Create a Jenkins job with the following configurations:<br>
+      a. Item type: pipeline
+      b. Pipeline Definition(at the last of the configuration): Pipeline Script from SCM, SCM: Git, Repository URL: your repository URL, Credentials:        none, Branc Specifier(main/master whichever is yours), Script Path: Jenkinsfile.
   </details>
 
   <details class="nested">

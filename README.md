@@ -9,7 +9,7 @@
 <summary>Steps followed to create the project</summary>
 <br>
 
-&nbsp;<details class="nested">
+<details class="nested">
 <summary>Create GitHub repository</summary><br>
 We will create a GitHub repository for Part One. This repository will serve as a central hub for developers to easily interact with the               project and manage their contributions. It will also provide a solid anchor for our Jenkins pipeline, ensuring smooth integration and                 continuous deployment processes. By utilizing GitHub, we promote collaboration, version control, and transparency within the team,                    enhancing overall productivity and project management.
 </details>

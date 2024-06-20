@@ -70,10 +70,12 @@ aws configure
 
 <details class="nested">
 <summary>Packer configuration</summary><br>
+
 </details>
 
   <details class="nested">
-  <summary>Provisioner</summary><br>
+  <summary>Provisioner</summary><be>
+  <p>Path to the Provisioner file <a href = "./provisioner.sh"> Provisioner.sh</a></p>
   </details>
 
   <details class="nested">

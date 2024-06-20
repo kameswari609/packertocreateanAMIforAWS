@@ -100,6 +100,6 @@ aws configure
  
   </details>
 
-Reference to the other parts of the Project.
+Reference to the other parts of the Parts.
 |[Part 0](https://github.com/AnirudhBadoni/ProjectOne.git)|[Part 2](https://github.com/AnirudhBadoni/Petclinic.git)|[Part 3](https://github.com/AnirudhBadoni/AwsInfra.git)|
 |---|---|---|

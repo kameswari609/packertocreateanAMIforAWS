@@ -51,8 +51,19 @@ sudo apt-get update && sudo apt-get install packer
 packer
 </code></pre><br>
 5. Install Git<br>
+<pre><code>
+sudo apt install git-all
+</code></pre>
 6. Install Aws cli and configure<br>
-** NOTE: ** This step is not mandatory we will be passing the credentials from jenkins saved credentials.
+** NOTE: ** This step is not mandatory we will be passing the credentials from Jenkins saved credentials.<br>
+<pre><code>
+sudo apt install awscli
+# Once installed, find out the AWS CLI version, run
+aws --version
+# to configure AWS CLI with API keys. Log in to the AWS
+aws configure
+# will ask for key, secret, az and datatype. which can be created from the AWS console.
+</code></pre>
 </details>
 
 

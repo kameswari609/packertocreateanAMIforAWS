@@ -83,13 +83,16 @@ aws configure
   <p>Path to the Provisioner file: <a href = "./Jenkinsfile"> Jenkinsfile</a></p>
   Steps followed:<br>
     1. Create a Jenkins job with the following configurations:<br>
-      a. Item type: pipeline
-      b. Pipeline Definition(at the last of the configuration): Pipeline Script from SCM, SCM: Git, Repository URL: your repository URL, Credentials:        none, Branc Specifier(main/master whichever is yours), Script Path: Jenkinsfile.
+      &nbsp;a. Item Type: pipeline<br>
+      &nbsp;b. Pipeline Definition(at the last of the configuration): Pipeline Script from SCM, SCM: Git, Repository URL: your repository URL,             Credentials: &nbsp; none, Branc Specifier(main/master whichever is yours), Script Path: Jenkinsfile.<br>
+    2. Install the following plugins: Git Plugin, GitHub Integration Plugin, Pipeline: GitHub Plugin, AWS Credentials Plugin, and AWS Steps Plugin.<br><br>
+    3. Creta a credential in Jenkins to store the  AWS access key and secret key as username and password also pass the ID.<br><br>
+    4. Build the pipeline if no errors occur we will be able to find an ami in the location specified.
   </details>
 
   <details class="nested">
   <summary>Check for the ami on AWS Console</summary><br>
   </details>
-  
+  We will be able to find the ami with the name and tags passed by us in the region specified by us.
   </details>
 

@@ -55,7 +55,8 @@ packer
 sudo apt install git-all
 </code></pre>
 6. Install Aws cli and configure<br>
-** NOTE: ** This step is not mandatory we will be passing the credentials from Jenkins saved credentials.<be>
+  
+**NOTE:** This step is not mandatory we will be passing the credentials from Jenkins saved credentials.<be>
 <br>
 <pre><code>
 sudo apt install awscli

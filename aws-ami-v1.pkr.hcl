@@ -13,14 +13,14 @@ packer {
 
 # which ami to use as the base and where to save it
 source "amazon-ebs" "amazon-linux" {
-  region          = "ap-south-1"
+  region          = "us-east-1"
   ami_name        = "ami-version-1.0.1-{{timestamp}}"
   instance_type   = "t2.micro"
-  source_ami      = "ami-0e1d06225679bc1c5"
+  source_ami      = "ami-06c68f701d8090592"
   ssh_username    = "ec2-user"
   #ami_users       = [""]
   ami_regions     = [
-                      "ap-south-1"
+                      "ap-east-1"
                     ]
   tags = {
     "Name"        = "packer-ami"

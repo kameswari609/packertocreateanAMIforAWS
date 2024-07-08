@@ -20,7 +20,7 @@ source "amazon-ebs" "amazon-linux" {
   ssh_username    = "ec2-user"
   #ami_users       = [""]
   ami_regions     = [
-                      "ap-east-1"
+                      "us-east-1"
                     ]
   tags = {
     "Name"        = "packer-ami"
